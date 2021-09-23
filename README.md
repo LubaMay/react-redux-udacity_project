@@ -5,7 +5,7 @@
 
 ## Project Setup
 1. Clone the Project - git clone https://github.com/LubaMay/react-redux-udacity_project.git
-2. Go into the directory where the project now lives - cd reactnd-redux-todos-goals
+2. Go into the directory where the project now lives - cd react-redux-udacity_project
 3. Install the dependencies - npm install
 4. Start the app - npm start
 
