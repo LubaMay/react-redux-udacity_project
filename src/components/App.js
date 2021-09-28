@@ -7,12 +7,12 @@ import { handleInitialData } from '../actions/shared'
 
 class App extends React.Component {
   componentDidMount() {
-    store.dispatch(handleInitialData())
+    const { dispatch } = this.props
 
-    store.subscribe(() => this.forceUpdate())
+    dispatch(handleInitialData())
   }
   render() {
-    const { loading } = store.getState()
+    const { loading } = this.props
 
     if (loading === true) {
       return <h3>Loading</h3>
